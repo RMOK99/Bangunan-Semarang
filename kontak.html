@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Semarang</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Travel Semarang</h1>
+    <nav>
+      <ul>
+        <li><a href="beranda.html">Beranda</a></li>
+        <li><a href="destinasi.html">Destinasi</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="kontak">
+  <h2>Kontak Kami</h2>
+  <p>Jika Anda memiliki pertanyaan atau ingin informasi lebih lanjut, silakan hubungi kami melalui form di bawah ini:</p>
+  
+  <form action="proses_kontak.php" method="post">
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" name="nama" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="pesan">Pesan:</label>
+    <textarea id="pesan" name="pesan" rows="5" required></textarea>
+
+    <button type="submit">Kirim</button>
+  </form>
+  <footer>
+  <p><a href="index2.html">Kembali ke Beranda</a></p>
+</footer>
+</section>
+  
